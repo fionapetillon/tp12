@@ -3,7 +3,7 @@ def pow(x,n):
     if (n == 0):
         result = 1
     else:
-        result = x * pow(x,n-1);
+        result = x * pow(x,n-1)
     return result
 
 print(pow(42, 0)) # 1
